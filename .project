@@ -3,6 +3,7 @@
 	<name>JAVACLASS</name>
 	<comment></comment>
 	<projects>
+		<project>APJAVA</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

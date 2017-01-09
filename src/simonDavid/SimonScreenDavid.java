@@ -16,7 +16,6 @@ public class SimonScreenDavid extends ClickableScreen implements Runnable {
 	private int lastMove; // last number inputted.
 	private ButtonInterfaceDavid[] validMoves; // possible moves.
 	private int numOfButtons; // number of buttons on screen.
-
 	public SimonScreenDavid(int width, int height) {
 		super(width, height);
 		Thread app = new Thread(this);
@@ -66,7 +65,7 @@ public class SimonScreenDavid extends ClickableScreen implements Runnable {
 
 	private void addButtons() {
 		// TODO Auto-generated method stub
-		Color[] colors = new Color[numOfButtons];
+		Color[] colors = new Color[
 		for(int i = 0; i < numOfButtons; ++i){
 			colors[i] = new Color((int) Math.random() * 255,(int) Math.random() * 255,(int) Math.random() * 255);
 		}

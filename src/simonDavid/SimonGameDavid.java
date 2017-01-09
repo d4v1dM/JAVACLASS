@@ -15,7 +15,7 @@ public class SimonGameDavid extends GUIApplication {
 
 	}
 	public static void main(String[] args){
-		
+		System.out.println("hello");
 	}
 
 }
